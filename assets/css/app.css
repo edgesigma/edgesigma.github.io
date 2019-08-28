@@ -1,0 +1,27 @@
+#heroLogo{
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+#hp_events_container{
+    /* background-color: silver; */
+    background-image: url('../img/bg-shapes/learning-community.png');
+}
+
+/* #get_involved_block_bg{
+    background-image: url('../img/bg-shapes/learning-community.png');
+} */
+
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }

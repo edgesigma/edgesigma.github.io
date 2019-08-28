@@ -13378,6 +13378,7 @@ button:focus {
 
 .u-header.u-header--untransitioned {
   transition: none;
+  color: silver;
 }
 
 .u-header.js-header-fix-moment {
