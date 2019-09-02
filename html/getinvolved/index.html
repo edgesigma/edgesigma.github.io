@@ -1,382 +1,799 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Title -->
-  <title>Hello, world!</title>
+  <head>
+    <!-- Title -->
+    <title>Hello, world!</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- CSS Front Template -->
-  <link rel="stylesheet" href="../../assets/css/theme.css">
-  <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
-<link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-<link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
-<link rel="stylesheet" href="../../assets/css/bt614.css">
-<link rel="stylesheet" href="../../assets/css/app.css">
-</head>
+    <!-- CSS Front Template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/animate.css/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/bt614.css" />
+    <link rel="stylesheet" href="../../assets/css/app.css" />
+  </head>
 
-<body>
-  <!-- ========== HEADER ========== -->
-<header id="header" class="u-header u-header--bg-transparent-md u-header--white-nav-links-md u-header--abs-top-md u-header--show-hide-md"
-data-header-fix-moment="500"
-data-header-fix-effect="slide">
-<div class="u-header__section">
-<div id="logoAndNav" class="container">
-<!-- Nav -->
-<nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header
+      id="header"
+      class="u-header u-header--bg-transparent-md u-header--white-nav-links-md u-header--abs-top-md u-header--show-hide-md"
+      data-header-fix-moment="500"
+      data-header-fix-effect="slide"
+    >
+      <div class="u-header__section">
+        <div id="logoAndNav" class="container">
+          <!-- Nav -->
+          <nav
+            class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space"
+          >
+            <!-- Default Logo -->
+            <a
+              class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed"
+              href="index.html"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
+            </a>
+            <!-- End Default Logo -->
 
-<!-- Default Logo -->
-<a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed" href="index.html" aria-label="Front">
-  <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
-</a>
-<!-- End Default Logo -->
+            <!-- On Scroll Logo -->
+            <a
+              class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll"
+              href="index.html"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
+            </a>
+            <!-- End On Scroll Logo -->
 
-<!-- On Scroll Logo -->
-<a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll" href="index.html" aria-label="Front">
-  <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
-</a>
-<!-- End On Scroll Logo -->
+            <!-- Responsive Toggle Button -->
+            <button
+              type="button"
+              class="navbar-toggler btn u-hamburger"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="navBar"
+              data-toggle="collapse"
+              data-target="#navBar"
+            >
+              <span id="hamburgerTrigger" class="u-hamburger__box">
+                <span class="u-hamburger__inner"></span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
 
-<!-- Responsive Toggle Button -->
-<button type="button" class="navbar-toggler btn u-hamburger"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-        aria-controls="navBar"
-        data-toggle="collapse"
-        data-target="#navBar">
-  <span id="hamburgerTrigger" class="u-hamburger__box">
-    <span class="u-hamburger__inner"></span>
-  </span>
-</button>
-<!-- End Responsive Toggle Button -->
+            <!-- Navigation -->
+            <div
+              id="navBar"
+              class="collapse navbar-collapse u-header__navbar-collapse"
+            >
+              <ul class="navbar-nav u-header__navbar-nav">
+                <!-- Home -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/home/"
+                    >Home</a
+                  >
+                </li>
+                <!-- End Home -->
 
-<!-- Navigation -->
-<div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-  <ul class="navbar-nav u-header__navbar-nav">
+                <!-- About -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/about/"
+                    >About Us</a
+                  >
+                </li>
+                <!-- End About -->
 
-        <!-- Home -->
-        <li class="nav-item u-header__nav-item">
-            <a class="nav-link u-header__nav-link" href="/html/home/">Home</a>
-          </li>
-          <!-- End Home -->
-      
-          <!-- About -->
-          <li class="nav-item u-header__nav-item">
-            <a class="nav-link u-header__nav-link" href="/html/about/">About Us</a>
-          </li>
-          <!-- End About -->
-      
-          <!-- Get Involved -->
-          <li class="nav-item u-header__nav-item">
-            <a class="nav-link u-header__nav-link" href="/html/getinvolved/">Get Involved</a>
-          </li>
-          <!-- End Get Involved -->
-        
-          <!-- Get Events -->
-          <li class="nav-item u-header__nav-item">
-            <a class="nav-link u-header__nav-link" href="/html/events/">Events</a>
-          </li>
-          <!-- End Events -->
+                <!-- Get Involved -->
+                <li class="nav-item u-header__nav-item">
+                  <a
+                    class="nav-link u-header__nav-link"
+                    href="/html/getinvolved/"
+                    >Get Involved</a
+                  >
+                </li>
+                <!-- End Get Involved -->
 
-  </ul>
-</div>
-<!-- End Navigation -->
-</nav>
-<!-- End Nav -->
-</div>
-</div>
-</header>
-<!-- ========== END HEADER ========== -->
+                <!-- Get Events -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/events/"
+                    >Events</a
+                  >
+                </li>
+                <!-- End Events -->
+              </ul>
+            </div>
+            <!-- End Navigation -->
+          </nav>
+          <!-- End Nav -->
+        </div>
+      </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
 
+    <!-- Hero Section -->
+    <div
+      class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+      data-options='{direction: "normal"}'
+    >
+      <!-- Apply your Parallax background image here -->
+      <div
+        class="divimage dzsparallaxer--target"
+        style="height: 120%; background-image: url(../../assets/img/1920x800/img13.jpg);"
+      ></div>
 
- 
-
-<!-- Hero Section -->
-<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
-     data-options='{direction: "normal"}'>
-  <!-- Apply your Parallax background image here -->
-  <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(../../assets/img/1920x800/img13.jpg);"></div>
-
-  <!-- Content -->
-  <div class="container position-relative space-2 space-top-md-5 space-bottom-md-3 z-index-2">
-    <div class="w-lg-80 text-center mx-auto">
-      <h1 class="display-3 font-size-md-down-5 text-white font-weight-semi-bold">Get Involved</h1>
-      <p class="lead text-white">We're here for you.</p>
+      <!-- Content -->
+      <div
+        class="container position-relative space-2 space-top-md-5 space-bottom-md-3 z-index-2"
+      >
+        <div class="w-lg-80 text-center mx-auto">
+          <h1
+            class="display-3 font-size-md-down-5 text-white font-weight-semi-bold"
+          >
+            Get Involved
+          </h1>
+          <p class="lead text-white">We're here for you.</p>
+        </div>
+      </div>
+      <!-- End Content -->
     </div>
-  </div>
-  <!-- End Content -->
-</div>
-<!-- End Hero Section -->
+    <!-- End Hero Section -->
 
-
-
-
-
-<!-- Features Section -->
-<div id="SVGmockupBg" class="svg-preloader container space-2">
-        <!-- Nav Classic -->
-        <div class="position-relative w-lg-85 bg-white text-center z-index-2 mx-lg-auto">
-          <ul class="nav nav-classic nav-rounded nav-shadow nav-justified" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link font-weight-medium active" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true">
-                <div class="d-md-flex justify-content-md-center align-items-md-center">
-                  <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3">
-                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-14.svg" alt="SVG"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                  Planning & Logistics
-                </div>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-medium" id="pills-two-example1-tab" data-toggle="pill" href="#pills-two-example1" role="tab" aria-controls="pills-two-example1" aria-selected="false">
-                <div class="d-md-flex justify-content-md-center align-items-md-center">
-                  <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3">
-                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-21.svg" alt="SVG"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                  Marketing & Communications
-                </div>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-medium" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="false">
-                <div class="d-md-flex justify-content-md-center align-items-md-center">
-                  <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3">
-                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-5.svg" alt="SVG"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                  Community Engagement & Outreach
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- End Nav Classic -->
-      
-        <!-- Tab Content -->
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade pt-9 show active" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab">
-            <!-- Mockup Block -->
-            <div class="row justify-content-lg-between align-items-lg-center">
-              <div class="col-lg-4 mb-9 mb-lg-0">
-                <!-- Info -->
-                <div class="mb-5">
-                  <h3 class="h4 font-weight-semi-bold">Planning & Logistics</h3>
-                  <p>The <b>Planning & Logistics</b> team is responsible for ensuring that #BlackTech614 events are successful by coordinating the <b>planning and execution of all programming</b>.</p>
-                </div>
-      
-                
-                <!-- Team -->
-<div class="card position-relative mb-5">
-        <div class="card-body position-relative p-3">
-          <div class="row align-items-center">
-            <div class="col-sm-7 mb-3 mb-sm-0">
-              <div class="d-flex">
-                <!-- Avatar -->
-                <div class="position-relative u-lg-avatar mr-3">
-                  <img class="img-fluid rounded-circle" src="../../assets/img/profiles/DeneishaFranklin.png" alt="Image Description">
-                </div>
-                <!-- End Avatar -->
-      
-                <div class="mr-3">
-                  <!-- User Info -->
-                  <div class="mb-2">
-                    <h2 class="h6 mb-0">
-                      <a href="#">Deneisha Franklin</a>
-                    </h2>
-                    <a class="small" href="#">@patrickgarner</a>
-                  </div>
-                  <!-- End User Info -->
-
-                </div>
+    <!-- Features Section -->
+    <div id="SVGmockupBg" class="svg-preloader container space-2">
+      <!-- Nav Classic -->
+      <div
+        class="position-relative w-lg-85 bg-white text-center z-index-2 mx-lg-auto"
+      >
+        <ul
+          class="nav nav-classic nav-rounded nav-shadow nav-justified"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-medium active"
+              id="pills-one-example1-tab"
+              data-toggle="pill"
+              href="#pills-one-example1"
+              role="tab"
+              aria-controls="pills-one-example1"
+              aria-selected="true"
+            >
+              <div
+                class="d-md-flex justify-content-md-center align-items-md-center"
+              >
+                <figure
+                  class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3"
+                >
+                  <img
+                    class="js-svg-injector"
+                    src="../../assets/svg/icons/icon-14.svg"
+                    alt="SVG"
+                    data-parent="#SVGmockupBg"
+                  />
+                </figure>
+                Planning<br />& Logistics
               </div>
-            </div>
-          </div>
-      
-
-        </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-medium"
+              id="pills-two-example1-tab"
+              data-toggle="pill"
+              href="#pills-two-example1"
+              role="tab"
+              aria-controls="pills-two-example1"
+              aria-selected="false"
+            >
+              <div
+                class="d-md-flex justify-content-md-center align-items-md-center"
+              >
+                <figure
+                  class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3"
+                >
+                  <img
+                    class="js-svg-injector"
+                    src="../../assets/svg/icons/icon-21.svg"
+                    alt="SVG"
+                    data-parent="#SVGmockupBg"
+                  />
+                </figure>
+                Marketing & Communications
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-medium"
+              id="pills-three-example1-tab"
+              data-toggle="pill"
+              href="#pills-three-example1"
+              role="tab"
+              aria-controls="pills-three-example1"
+              aria-selected="false"
+            >
+              <div
+                class="d-md-flex justify-content-md-center align-items-md-center"
+              >
+                <figure
+                  class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3"
+                >
+                  <img
+                    class="js-svg-injector"
+                    src="../../assets/svg/icons/icon-5.svg"
+                    alt="SVG"
+                    data-parent="#SVGmockupBg"
+                  />
+                </figure>
+                Community Engagement & Outreach
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
-      <!-- End Team -->
-      
+      <!-- End Nav Classic -->
 
-                      <!-- Team -->
-<div class="card position-relative mb-5">
-        <div class="card-body position-relative p-3">
-          <div class="row align-items-center">
-            <div class="col-sm-7 mb-3 mb-sm-0">
-              <div class="d-flex">
-                <!-- Avatar -->
-                <div class="position-relative u-lg-avatar mr-3">
-                  <img class="img-fluid rounded-circle" src="../../assets/img/profiles/JariatuMansaray.png" alt="Image Description">
-                </div>
-                <!-- End Avatar -->
-      
-                <div class="mr-3">
-                  <!-- User Info -->
-                  <div class="mb-2">
-                    <h2 class="h6 mb-0">
-                      <a href="#">Jariatu Mansaray</a>
-                    </h2>
-                    <a class="small" href="#">@patrickgarner</a>
-                  </div>
-                  <!-- End User Info -->
-
-                </div>
+      <!-- Tab Content -->
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade pt-9 show active"
+          id="pills-one-example1"
+          role="tabpanel"
+          aria-labelledby="pills-one-example1-tab"
+        >
+          <!-- Mockup Block -->
+          <div class="row justify-content-lg-between align-items-lg-center">
+            <div class="col-lg-4 mb-9 mb-lg-0">
+              <!-- Info -->
+              <div class="mb-5">
+                <h3 class="h4 font-weight-semi-bold">Planning & Logistics</h3>
+                <p>
+                  The <b>Planning & Logistics</b> team is responsible for
+                  ensuring that #BlackTech614 events are successful by
+                  coordinating the
+                  <b>planning and execution of all programming</b>.
+                </p>
               </div>
-            </div>
-          </div>
-      
 
-        </div>
-      </div>
-      <!-- End Team -->
-
-
-                <!-- End Info -->
-              </div>
-      
-              <div class="col-lg-7 position-relative">
-                <div class="pl-md-9">
-                  <img class="img-fluid shadow rounded" src="../../assets/img/others/planning.jpg" alt="Image Description">
-                </div>
-      
-                <!-- SVG Component -->
-                <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                  <figure class="ie-abstract-shapes-2">
-                    <img class="js-svg-injector" src="../../assets/svg/components/abstract-shapes-2.svg" alt="Image Description"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                </div>
-                <!-- End SVG Component -->
-              </div>
-            </div>
-            <!-- End Mockup Block -->
-          </div>
-          <div class="tab-pane fade pt-9" id="pills-two-example1" role="tabpanel" aria-labelledby="pills-two-example1-tab">
-            <!-- Mockup Block -->
-            <div class="row justify-content-lg-between align-items-lg-center">
-              <div class="col-lg-4 mb-9 mb-lg-0">
-                <!-- Info -->
-                <div class="mb-5">
-                  <h3 class="h4 font-weight-semi-bold">Marketing & Comunications</h3>
-                  <p>The <b>Marketing & Communication</b> team is responsivle for the promotion of <b>#BlackTech614</b> programming and general branding of the organization. This is done by creating marketing materials, managing social media accounts, and all other duties related to <b>increasing brand awareness in the local and broader IT community</b>.</p>
-                </div>
-      
-
-    <!-- Team -->
-    <div class="card position-relative mb-5">
-        <div class="card-body position-relative p-3">
-          <div class="row align-items-center">
-            <div class="col-sm-7 mb-3 mb-sm-0">
-              <div class="d-flex">
-                <!-- Avatar -->
-                <div class="position-relative u-lg-avatar mr-3">
-                  <img class="img-fluid rounded-circle" src="../../assets/img/profiles/ToniCunningham.png" alt="Image Description">
-                </div>
-                <!-- End Avatar -->
-      
-                <div class="mr-3">
-                  <!-- User Info -->
-                  <div class="mb-2">
-                    <h2 class="h6 mb-0">
-                      <a href="#">Toni Cunningham</a>
-                    </h2>
-                    <a class="small" href="#">@patrickgarner</a>
-                  </div>
-                  <!-- End User Info -->
-
-                </div>
-              </div>
-            </div>
-          </div>
-      
-        </div>
-      </div>
-      <!-- End Team -->
-
-    <!-- Team -->
-    <div class="card position-relative mb-5">
-            <div class="card-body position-relative p-3">
-              <div class="row align-items-center">
-                <div class="col-sm-7 mb-3 mb-sm-0">
-                  <div class="d-flex">
-                    <!-- Avatar -->
-                    <div class="position-relative u-lg-avatar mr-3">
-                      <img class="img-fluid rounded-circle" src="../../assets/img/profiles/DawnMarbury.png" alt="Image Description">
-                    </div>
-                    <!-- End Avatar -->
-          
-                    <div class="mr-3">
-                      <!-- User Info -->
-                      <div class="mb-2">
-                        <h2 class="h6 mb-0">
-                          <a href="#">Dawn Marbury</a>
-                        </h2>
-                        <a class="small" href="#">@patrickgarner</a>
-                      </div>
-                      <!-- End User Info -->
-    
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-            </div>
-          </div>
-          <!-- End Team -->
-
-
-                <!-- End Info -->
-              </div>
-      
-              <div class="col-lg-7 position-relative">
-                <div class="pl-md-9">
-                  <img class="img-fluid shadow-sm rounded" src="../../assets/img/others/marketing2.jpg" alt="Image Description">
-                </div>
-      
-                <!-- SVG Component -->
-                <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                  <figure class="ie-abstract-shapes-4">
-                    <img class="js-svg-injector" src="../../assets/svg/components/abstract-shapes-4.svg" alt="Image Description"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                </div>
-                <!-- End SVG Component -->
-              </div>
-            </div>
-            <!-- End Mockup Block -->
-          </div>
-          <div class="tab-pane fade pt-9" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab">
-            <!-- Mockup Block -->
-            <div class="row justify-content-lg-between align-items-lg-center">
-              <div class="col-lg-4 mb-9 mb-lg-0">
-                <!-- Info -->
-                <div class="mb-5">
-                  <h3 class="h4 font-weight-semi-bold">Community Engagement</h3>
-                  <p>The <b>Community Engagement</b> team is responsible for building the <b>#BlackTech614</b> presence in the community by cultivating volunteerism, partnering with organizations, and <b>organizing community service initiatives</b>.</p>
-                </div>
-
-
-        <!-- Team -->
-        <div class="card position-relative mb-5">
+              <!-- Team -->
+              <div class="card position-relative mb-5">
                 <div class="card-body position-relative p-3">
                   <div class="row align-items-center">
                     <div class="col-sm-7 mb-3 mb-sm-0">
                       <div class="d-flex">
                         <!-- Avatar -->
                         <div class="position-relative u-lg-avatar mr-3">
-                          <img class="img-fluid rounded-circle" src="../../assets/img/profiles/MattQuinn.png" alt="Image Description">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/DeneishaFranklin.png"
+                            alt="Image Description"
+                          />
                         </div>
                         <!-- End Avatar -->
-              
+
+                        <div class="mr-3">
+                          <!-- User Info -->
+                          <div class="mb-2">
+                            <h2 class="h6 mb-0">
+                              <a href="#">Deneisha Franklin</a>
+                            </h2>
+                            <a class="small" href="#">@patrickgarner</a>
+                          </div>
+                          <!-- End User Info -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Team -->
+
+              <!-- Team -->
+              <div class="card position-relative mb-5">
+                <div class="card-body position-relative p-3">
+                  <div class="row align-items-center">
+                    <div class="col-sm-7 mb-3 mb-sm-0">
+                      <div class="d-flex">
+                        <!-- Avatar -->
+                        <div class="position-relative u-lg-avatar mr-3">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/JariatuMansaray.png"
+                            alt="Image Description"
+                          />
+                        </div>
+                        <!-- End Avatar -->
+
+                        <div class="mr-3">
+                          <!-- User Info -->
+                          <div class="mb-2">
+                            <h2 class="h6 mb-0">
+                              <a href="#">Jariatu Mansaray</a>
+                            </h2>
+                            <a class="small" href="#">@patrickgarner</a>
+                          </div>
+                          <!-- End User Info -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Team -->
+
+              <!-- End Info -->
+            </div>
+
+            <div class="col-lg-7 position-relative">
+              <div class="pl-md-9">
+                <img
+                  class="img-fluid shadow rounded"
+                  src="../../assets/img/others/planning.jpg"
+                  alt="Image Description"
+                  style="box-shadow: -22px -22px 1px #6ad5ef!important"
+                />
+              </div>
+            </div>
+
+
+            <div class="container">
+                <!-- Contacts Form -->
+                <form class="js-validate">
+                  <div class="row">
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your name
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          placeholder="Jack Wayley"
+                          aria-label="Jack Wayley"
+                          required
+                          data-msg="Please enter your name."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your email address
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          placeholder="jackwayley@gmail.com"
+                          aria-label="jackwayley@gmail.com"
+                          required
+                          data-msg="Please enter a valid email address."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <div class="w-100"></div>
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Subject
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          placeholder="Web design"
+                          aria-label="Web design"
+                          value="Planning & Logistics Volunteer"
+                          required
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                          readonly
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your Phone Number
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="phone"
+                          placeholder="1-800-643-4500"
+                          aria-label="1-800-643-4500"
+                          required
+                          data-msg="Please enter a valid phone number."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+                  </div>
+          
+                  <!-- Input -->
+                  <div class="js-form-message mb-6">
+                    <label class="form-label">
+                      How can we help you?
+                      <span class="text-danger">*</span>
+                    </label>
+          
+                    <div class="input-group">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        name="text"
+                        placeholder="Hi there, I would like to ..."
+                        aria-label="Hi there, I would like to ..."
+                        required
+                        data-msg="Please enter a reason."
+                        data-error-class="u-has-error"
+                        data-success-class="u-has-success"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <!-- End Input -->
+          
+                  <div class="text-center">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-wide transition-3d-hover mb-4"
+                    >
+                      Submit
+                    </button>
+                    <p class="small">We'll get back to you in 1-2 business days.</p>
+                  </div>
+                </form>
+                <!-- End Contacts Form -->
+              </div>
+          </div>
+          <!-- End Mockup Block -->
+        </div>
+        <div
+          class="tab-pane fade pt-9"
+          id="pills-two-example1"
+          role="tabpanel"
+          aria-labelledby="pills-two-example1-tab"
+        >
+          <!-- Mockup Block -->
+          <div class="row justify-content-lg-between align-items-lg-center">
+            <div class="col-lg-4 mb-9 mb-lg-0">
+              <!-- Info -->
+              <div class="mb-5">
+                <h3 class="h4 font-weight-semi-bold">
+                  Marketing & Comunications
+                </h3>
+                <p>
+                  The <b>Marketing & Communication</b> team is responsivle for
+                  the promotion of <b>#BlackTech614</b> programming and general
+                  branding of the organization. This is done by creating
+                  marketing materials, managing social media accounts, and all
+                  other duties related to
+                  <b
+                    >increasing brand awareness in the local and broader IT
+                    community</b
+                  >.
+                </p>
+              </div>
+
+              <!-- Team -->
+              <div class="card position-relative mb-5">
+                <div class="card-body position-relative p-3">
+                  <div class="row align-items-center">
+                    <div class="col-sm-7 mb-3 mb-sm-0">
+                      <div class="d-flex">
+                        <!-- Avatar -->
+                        <div class="position-relative u-lg-avatar mr-3">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/ToniCunningham.png"
+                            alt="Image Description"
+                          />
+                        </div>
+                        <!-- End Avatar -->
+
+                        <div class="mr-3">
+                          <!-- User Info -->
+                          <div class="mb-2">
+                            <h2 class="h6 mb-0">
+                              <a href="#">Toni Cunningham</a>
+                            </h2>
+                            <a class="small" href="#">@patrickgarner</a>
+                          </div>
+                          <!-- End User Info -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Team -->
+
+              <!-- Team -->
+              <div class="card position-relative mb-5">
+                <div class="card-body position-relative p-3">
+                  <div class="row align-items-center">
+                    <div class="col-sm-7 mb-3 mb-sm-0">
+                      <div class="d-flex">
+                        <!-- Avatar -->
+                        <div class="position-relative u-lg-avatar mr-3">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/DawnMarbury.png"
+                            alt="Image Description"
+                          />
+                        </div>
+                        <!-- End Avatar -->
+
+                        <div class="mr-3">
+                          <!-- User Info -->
+                          <div class="mb-2">
+                            <h2 class="h6 mb-0">
+                              <a href="#">Dawn Marbury</a>
+                            </h2>
+                            <a class="small" href="#">@patrickgarner</a>
+                          </div>
+                          <!-- End User Info -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Team -->
+
+              <!-- End Info -->
+            </div>
+
+            <div class="col-lg-7 position-relative">
+              <div class="pl-md-9">
+                <img
+                  class="img-fluid shadow-sm rounded"
+                  src="../../assets/img/others/marketing2.jpg"
+                  alt="Image Description"
+                  style="box-shadow: -22px -22px 1px #6ad5ef!important"
+                />
+              </div>
+            </div>
+
+
+            <div class="container">
+                <!-- Contacts Form -->
+                <form class="js-validate">
+                  <div class="row">
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your name
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          placeholder="Jack Wayley"
+                          aria-label="Jack Wayley"
+                          required
+                          data-msg="Please enter your name."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your email address
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          placeholder="jackwayley@gmail.com"
+                          aria-label="jackwayley@gmail.com"
+                          required
+                          data-msg="Please enter a valid email address."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <div class="w-100"></div>
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Subject
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          placeholder="Web design"
+                          aria-label="Web design"
+                          value="Marketing & Communications Volunteer"
+                          required
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                          readonly
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your Phone Number
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="phone"
+                          placeholder="1-800-643-4500"
+                          aria-label="1-800-643-4500"
+                          required
+                          data-msg="Please enter a valid phone number."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+                  </div>
+          
+                  <!-- Input -->
+                  <div class="js-form-message mb-6">
+                    <label class="form-label">
+                      How can we help you?
+                      <span class="text-danger">*</span>
+                    </label>
+          
+                    <div class="input-group">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        name="text"
+                        placeholder="Hi there, I would like to ..."
+                        aria-label="Hi there, I would like to ..."
+                        required
+                        data-msg="Please enter a reason."
+                        data-error-class="u-has-error"
+                        data-success-class="u-has-success"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <!-- End Input -->
+          
+                  <div class="text-center">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-wide transition-3d-hover mb-4"
+                    >
+                      Submit
+                    </button>
+                    <p class="small">We'll get back to you in 1-2 business days.</p>
+                  </div>
+                </form>
+                <!-- End Contacts Form -->
+              </div>
+          </div>
+          <!-- End Mockup Block -->
+        </div>
+        <div
+          class="tab-pane fade pt-9"
+          id="pills-three-example1"
+          role="tabpanel"
+          aria-labelledby="pills-three-example1-tab"
+        >
+          <!-- Mockup Block -->
+          <div class="row justify-content-lg-between align-items-lg-center">
+            <div class="col-lg-4 mb-9 mb-lg-0">
+              <!-- Info -->
+              <div class="mb-5">
+                <h3 class="h4 font-weight-semi-bold">Community Engagement</h3>
+                <p>
+                  The <b>Community Engagement</b> team is responsible for
+                  building the <b>#BlackTech614</b> presence in the community by
+                  cultivating volunteerism, partnering with organizations, and
+                  <b>organizing community service initiatives</b>.
+                </p>
+              </div>
+
+              <!-- Team -->
+              <div class="card position-relative mb-5">
+                <div class="card-body position-relative p-3">
+                  <div class="row align-items-center">
+                    <div class="col-sm-7 mb-3 mb-sm-0">
+                      <div class="d-flex">
+                        <!-- Avatar -->
+                        <div class="position-relative u-lg-avatar mr-3">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/MattQuinn.png"
+                            alt="Image Description"
+                          />
+                        </div>
+                        <!-- End Avatar -->
+
                         <div class="mr-3">
                           <!-- User Info -->
                           <div class="mb-2">
@@ -386,29 +803,30 @@ data-header-fix-effect="slide">
                             <a class="small" href="#">@patrickgarner</a>
                           </div>
                           <!-- End User Info -->
-        
                         </div>
                       </div>
                     </div>
                   </div>
-              
                 </div>
               </div>
               <!-- End Team -->
 
-
-        <!-- Team -->
-        <div class="card position-relative mb-5">
+              <!-- Team -->
+              <div class="card position-relative mb-5">
                 <div class="card-body position-relative p-3">
                   <div class="row align-items-center">
                     <div class="col-sm-7 mb-3 mb-sm-0">
                       <div class="d-flex">
                         <!-- Avatar -->
                         <div class="position-relative u-lg-avatar mr-3">
-                          <img class="img-fluid rounded-circle" src="../../assets/img/profiles/KaleemMusa.png" alt="Image Description">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/KaleemMusa.png"
+                            alt="Image Description"
+                          />
                         </div>
                         <!-- End Avatar -->
-              
+
                         <div class="mr-3">
                           <!-- User Info -->
                           <div class="mb-2">
@@ -418,320 +836,386 @@ data-header-fix-effect="slide">
                             <a class="small" href="#">@patrickgarner</a>
                           </div>
                           <!-- End User Info -->
-        
                         </div>
                       </div>
                     </div>
                   </div>
-              
                 </div>
               </div>
               <!-- End Team -->
 
+              <!-- Team -->
+              <div class="card position-relative mb-5">
+                <div class="card-body position-relative p-3">
+                  <div class="row align-items-center">
+                    <div class="col-sm-7 mb-3 mb-sm-0">
+                      <div class="d-flex">
+                        <!-- Avatar -->
+                        <div class="position-relative u-lg-avatar mr-3">
+                          <img
+                            class="img-fluid rounded-circle"
+                            src="../../assets/img/profiles/DawnMarbury.png"
+                            alt="Image Description"
+                          />
+                        </div>
+                        <!-- End Avatar -->
 
-
-        <!-- Team -->
-        <div class="card position-relative mb-5">
-            <div class="card-body position-relative p-3">
-              <div class="row align-items-center">
-                <div class="col-sm-7 mb-3 mb-sm-0">
-                  <div class="d-flex">
-                    <!-- Avatar -->
-                    <div class="position-relative u-lg-avatar mr-3">
-                      <img class="img-fluid rounded-circle" src="../../assets/img/profiles/DawnMarbury.png" alt="Image Description">
-                    </div>
-                    <!-- End Avatar -->
-          
-                    <div class="mr-3">
-                      <!-- User Info -->
-                      <div class="mb-2">
-                        <h2 class="h6 mb-0">
-                          <a href="#">Dawn Marbury</a>
-                        </h2>
-                        <a class="small" href="#">@patrickgarner</a>
+                        <div class="mr-3">
+                          <!-- User Info -->
+                          <div class="mb-2">
+                            <h2 class="h6 mb-0">
+                              <a href="#">Dawn Marbury</a>
+                            </h2>
+                            <a class="small" href="#">@patrickgarner</a>
+                          </div>
+                          <!-- End User Info -->
+                        </div>
                       </div>
-                      <!-- End User Info -->
-    
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- End Team -->
+
+              <!-- End Info -->
+            </div>
+
+            <div class="col-lg-7 position-relative">
+              <div class="pl-md-9">
+                <img
+                  class="img-fluid shadow-sm rounded"
+                  src="../../assets/img/others/community.jpg"
+                  alt="Image Description"
+                  style="box-shadow: -22px -22px 1px #6ad5ef!important"
+                />
+              </div>
+            </div>
+            
+
+            <div class="container">
+                <!-- Contacts Form -->
+                <form class="js-validate">
+                  <div class="row">
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your name
+                          <span class="text-danger">*</span>
+                        </label>
           
-            </div>
-          </div>
-          <!-- End Team -->
-
-
-                <!-- End Info -->
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          placeholder="Jack Wayley"
+                          aria-label="Jack Wayley"
+                          required
+                          data-msg="Please enter your name."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your email address
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          placeholder="jackwayley@gmail.com"
+                          aria-label="jackwayley@gmail.com"
+                          required
+                          data-msg="Please enter a valid email address."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <div class="w-100"></div>
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Subject
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          placeholder="Web design"
+                          aria-label="Web design"
+                          value="Community Engagement & Outreach"
+                          required
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                          readonly
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+          
+                    <!-- Input -->
+                    <div class="col-sm-6 mb-6">
+                      <div class="js-form-message">
+                        <label class="form-label">
+                          Your Phone Number
+                          <span class="text-danger">*</span>
+                        </label>
+          
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="phone"
+                          placeholder="1-800-643-4500"
+                          aria-label="1-800-643-4500"
+                          required
+                          data-msg="Please enter a valid phone number."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"
+                        />
+                      </div>
+                    </div>
+                    <!-- End Input -->
+                  </div>
+          
+                  <!-- Input -->
+                  <div class="js-form-message mb-6">
+                    <label class="form-label">
+                      How can we help you?
+                      <span class="text-danger">*</span>
+                    </label>
+          
+                    <div class="input-group">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        name="text"
+                        placeholder="Hi there, I would like to ..."
+                        aria-label="Hi there, I would like to ..."
+                        required
+                        data-msg="Please enter a reason."
+                        data-error-class="u-has-error"
+                        data-success-class="u-has-success"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <!-- End Input -->
+          
+                  <div class="text-center">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-wide transition-3d-hover mb-4"
+                    >
+                      Submit
+                    </button>
+                    <p class="small">We'll get back to you in 1-2 business days.</p>
+                  </div>
+                </form>
+                <!-- End Contacts Form -->
               </div>
-      
-              <div class="col-lg-7 position-relative">
-                <div class="pl-md-9">
-                  <img class="img-fluid shadow-sm rounded" src="../../assets/img/others/community.jpg" alt="Image Description">
-                </div>
-      
-                <!-- SVG Component -->
-                <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                  <figure class="ie-abstract-shapes-3">
-                    <img class="js-svg-injector" src="../../assets/svg/components/abstract-shapes-3.svg" alt="Image Description"
-                         data-parent="#SVGmockupBg">
-                  </figure>
-                </div>
-                <!-- End SVG Component -->
-              </div>
-            </div>
-            <!-- End Mockup Block -->
+
           </div>
+          <!-- End Mockup Block -->
         </div>
-        <!-- End Tab Content -->
       </div>
-      <!-- End Features Section -->
+      <!-- End Tab Content -->
+    </div>
+    <!-- End Features Section -->
 
 
+    <!-- Subscribe Section -->
+    <div class="space-1 mt-9 mb-9">
+      <div
+        class="bg-img-hero"
+        style="background-image: url(../../assets/img/bg-shapes/faces_banner_transparent.png);"
+      >
+        <div class="container space-2 space-bottom-lg-3 space-top-lg-3">
+          <!-- Title -->
+          <div class="w-md-60 text-center mx-auto mb-7">
+            <h2 class="font-weight-semi-bold">Stay in the know</h2>
+            <p>Subscribe to stay up to date on future events.</p>
+          </div>
+          <!-- End Title -->
 
-<div class="container">
-    <!-- Contacts Form -->
-<form class="js-validate">
-        <div class="row">
-          <!-- Input -->
-          <div class="col-sm-6 mb-6">
+          <!-- Form -->
+          <form class="js-validate w-md-75 w-lg-50 mx-md-auto">
             <div class="js-form-message">
-              <label class="form-label">
-                Your name
-                <span class="text-danger">*</span>
-              </label>
-      
-              <input type="text" class="form-control" name="name" placeholder="Jack Wayley" aria-label="Jack Wayley" required
-                     data-msg="Please enter your name."
-                     data-error-class="u-has-error"
-                     data-success-class="u-has-success">
-            </div>
-          </div>
-          <!-- End Input -->
-      
-          <!-- Input -->
-          <div class="col-sm-6 mb-6">
-            <div class="js-form-message">
-              <label class="form-label">
-                Your email address
-                <span class="text-danger">*</span>
-              </label>
-      
-              <input type="email" class="form-control" name="email" placeholder="jackwayley@gmail.com" aria-label="jackwayley@gmail.com" required
-                     data-msg="Please enter a valid email address."
-                     data-error-class="u-has-error"
-                     data-success-class="u-has-success">
-            </div>
-          </div>
-          <!-- End Input -->
-      
-          <div class="w-100"></div>
-      
-          <!-- Input -->
-          <div class="col-sm-6 mb-6">
-            <div class="js-form-message">
-              <label class="form-label">
-                Subject
-                <span class="text-danger">*</span>
-              </label>
-      
-              <input type="text" class="form-control" name="subject" placeholder="Web design" aria-label="Web design" required
-                     data-msg="Please enter a subject."
-                     data-error-class="u-has-error"
-                     data-success-class="u-has-success">
-            </div>
-          </div>
-          <!-- End Input -->
-      
-          <!-- Input -->
-          <div class="col-sm-6 mb-6">
-            <div class="js-form-message">
-              <label class="form-label">
-                Your Phone Number
-                <span class="text-danger">*</span>
-              </label>
-      
-              <input type="number" class="form-control" name="phone" placeholder="1-800-643-4500" aria-label="1-800-643-4500" required
-                     data-msg="Please enter a valid phone number."
-                     data-error-class="u-has-error"
-                     data-success-class="u-has-success">
-            </div>
-          </div>
-          <!-- End Input -->
-        </div>
-      
-        <!-- Input -->
-        <div class="js-form-message mb-6">
-          <label class="form-label">
-            How can we help you?
-            <span class="text-danger">*</span>
-          </label>
-      
-          <div class="input-group">
-            <textarea class="form-control" rows="4" name="text" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required
-                      data-msg="Please enter a reason."
-                      data-error-class="u-has-error"
-                      data-success-class="u-has-success"></textarea>
-          </div>
-        </div>
-        <!-- End Input -->
-      
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary btn-wide transition-3d-hover mb-4">Submit</button>
-          <p class="small">We'll get back to you in 1-2 business days.</p>
-        </div>
-      </form>
-      <!-- End Contacts Form -->
-</div>
-
-      
-
-  
-  <!-- Subscribe Section -->
-<div class="space-1 mt-9 mb-9">
-    <div class="bg-img-hero">
-      <div class="container space-2 space-bottom-lg-3 space-top-lg-3">
-        <!-- Title -->
-        <div class="w-md-60 text-center mx-auto mb-7">
-          <h2 class="font-weight-semi-bold">Stay in the know</h2>
-          <p>Subscribe to stay up to date on future events.</p>
-        </div>
-        <!-- End Title -->
-  
-        <!-- Form -->
-        <form class="js-validate w-md-75 w-lg-50 mx-md-auto">
-          <div class="js-form-message">
-            <div class="d-flex align-items-center">
-              <label class="sr-only" for="signupSrEmailExample2">Search Front blog</label>
-              <div class="input-group">
-                <input type="email" class="form-control" name="email" id="signupSrEmailExample2" placeholder="Your email" aria-label="Your email" required
-                       data-msg="Please enter a valid email address."
-                       data-error-class="u-has-error"
-                       data-success-class="u-has-success">
+              <div class="d-flex align-items-center">
+                <label class="sr-only" for="signupSrEmailExample2"
+                  >Search Front blog</label
+                >
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="signupSrEmailExample2"
+                    placeholder="Your email"
+                    aria-label="Your email"
+                    required
+                    data-msg="Please enter a valid email address."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-wide transition-3d-hover ml-3"
+                >
+                  Get Started
+                </button>
               </div>
-              <button type="submit" class="btn btn-primary btn-wide transition-3d-hover ml-3">Get Started</button>
             </div>
-          </div>
-        </form>
-        <!-- End Form -->
+          </form>
+          <!-- End Form -->
+        </div>
       </div>
     </div>
-  </div>
-  <!-- End Subscribe Section -->
+    <!-- End Subscribe Section -->
 
-  <!-- ========== FOOTER ========== -->
-<footer class="container space-1">
-  <div class="row align-items-md-center">
-    <div class="col-md-3 mb-4 mb-md-0">
-      <div class="d-flex align-items-center">
-        <a class="d-inline-flex align-items-center" href="/html/home" aria-label="Front">
-            <img src="../../assets/img/logos/BT614_flat_small.png" />
-        </a>
-      </div>
-    </div>
+    <!-- ========== FOOTER ========== -->
+    <footer class="container space-1">
+      <div class="row align-items-md-center">
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="d-flex align-items-center">
+            <a
+              class="d-inline-flex align-items-center"
+              href="/html/home"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_flat_small.png" />
+            </a>
+          </div>
+        </div>
 
-    <div class="col-sm-7 col-md-6 mb-4 mb-sm-0">
-      <!-- List -->
-      <ul class="list-inline list-group-flush list-group-borderless font-size-1 text-md-center mb-0">
-          <li class="list-inline-item pr-3">
-            <a class="list-group-item-action" href="/html/home">Home</a>
-          </li>
-          <li class="list-inline-item pr-3">
-            <a class="list-group-item-action" href="/html/about/">About Us</a>
-          </li>
-          <li class="list-inline-item px-3">
-            <a class="list-group-item-action" href="/html/getinvolved/">Get Involved</a>
-          </li>
-          <li class="list-inline-item px-3">
+        <div class="col-sm-7 col-md-6 mb-4 mb-sm-0">
+          <!-- List -->
+          <ul
+            class="list-inline list-group-flush list-group-borderless font-size-1 text-md-center mb-0"
+          >
+            <li class="list-inline-item pr-3">
+              <a class="list-group-item-action" href="/html/home">Home</a>
+            </li>
+            <li class="list-inline-item pr-3">
+              <a class="list-group-item-action" href="/html/about/">About Us</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="list-group-item-action" href="/html/getinvolved/"
+                >Get Involved</a
+              >
+            </li>
+            <li class="list-inline-item px-3">
               <a class="list-group-item-action" href="/html/events/">Events</a>
-          </li>
-        </ul>
-      <!-- End List -->
-    </div>
+            </li>
+          </ul>
+          <!-- End List -->
+        </div>
 
-    <div class="col-sm-5 col-md-3 text-sm-right">
-      <!-- Social Networks -->
-      <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-facebook-f btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-google btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-twitter btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-github btn-icon__inner"></span>
-          </a>
-        </li>
-      </ul>
-      <!-- End Social Networks -->
-    </div>
-  </div>
-</footer>
-<!-- ========== END FOOTER ========== -->
+        <div class="col-sm-5 col-md-3 text-sm-right">
+          <!-- Social Networks -->
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-facebook-f btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-google btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-twitter btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-github btn-icon__inner"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Social Networks -->
+        </div>
+      </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
 
-  <!-- JS Global Compulsory -->
-  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Global Compulsory -->
+    <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-  <!-- JS Implementing Plugins -->
-  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>  
-<script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
-<script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-<script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-<script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="../../assets/js/components/hs.unfold.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../../assets/js/components/hs.unfold.js"></script>
 
-<!-- JS Front -->
-<script src="../../assets/js/hs.core.js"></script>
-<script src="../../assets/js/components/hs.header.js"></script>
-<!-- <script src="../../assets/js/components/hs.slick.js"></script> -->
-<script src="../../assets/js/components/hs.slick-carousel.js"></script>
-<script src="../../assets/js/components/hs.svg-injector.js"></script>
-<script src="../../assets/js/components/hs.validation.js"></script>
+    <!-- JS Front -->
+    <script src="../../assets/js/hs.core.js"></script>
+    <script src="../../assets/js/components/hs.header.js"></script>
+    <!-- <script src="../../assets/js/components/hs.slick.js"></script> -->
+    <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+    <script src="../../assets/js/components/hs.svg-injector.js"></script>
+    <script src="../../assets/js/components/hs.validation.js"></script>
 
-<!-- JS Plugins Init. -->
-<script>
-  $(window).on('load', function () {
+    <!-- JS Plugins Init. -->
+    <script>
+      $(window).on("load", function() {
+        // initialization of HSMegaMenu component
+        $(".js-mega-menu").HSMegaMenu({
+          event: "hover",
+          pageContainer: $(".container"),
+          breakpoint: 767.98,
+          hideTimeOut: 0
+        });
 
-    // initialization of HSMegaMenu component
-    $('.js-mega-menu').HSMegaMenu({
-      event: 'hover',
-      pageContainer: $('.container'),
-      breakpoint: 767.98,
-      hideTimeOut: 0
-    });
+        // initialization of svg injector module
+        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
+        // initialization of svg injector module
+        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
+      });
 
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-
-  });
-
-  $(document).on('ready', function () {
-
-    // initialization of header
-    $.HSCore.components.HSHeader.init($('#header'));
-    // initialization of slick carousel
-    $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
-    // initialization of form validation
-    $.HSCore.components.HSValidation.init('.js-validate');
-    // initialization of unfold component
-    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-  });
-</script>
-</body>
+      $(document).on("ready", function() {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($("#header"));
+        // initialization of slick carousel
+        $.HSCore.components.HSSlickCarousel.init(".js-slick-carousel");
+        // initialization of form validation
+        $.HSCore.components.HSValidation.init(".js-validate");
+        // initialization of unfold component
+        $.HSCore.components.HSUnfold.init($("[data-unfold-target]"));
+      });
+    </script>
+  </body>
 </html>
