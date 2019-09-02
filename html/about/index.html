@@ -1,256 +1,368 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Title -->
-  <title>Hello, world!</title>
+  <head>
+    <!-- Title -->
+    <title>Hello, world!</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- CSS Front Template -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../assets/css/theme.css">
-  <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
-<link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-<link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
-<link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
-<link rel="stylesheet" href="../../assets/css/bt614.css">
-<link rel="stylesheet" href="../../assets/css/app.css">
-</head>
+    <!-- CSS Front Template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/animate.css/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/fancybox/jquery.fancybox.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/bt614.css" />
+    <link rel="stylesheet" href="../../assets/css/app.css" />
+  </head>
 
-<body>
-  <!-- ========== HEADER ========== -->
-<header id="header" class="u-header u-header--bg-transparent-md u-header--white-nav-links-md u-header--abs-top-md u-header--show-hide-md"
-data-header-fix-moment="500"
-data-header-fix-effect="slide">
-<div class="u-header__section">
-<div id="logoAndNav" class="container">
-<!-- Nav -->
-<nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header
+      id="header"
+      class="u-header u-header--bg-transparent-md u-header--white-nav-links-md u-header--abs-top-md u-header--show-hide-md"
+      data-header-fix-moment="500"
+      data-header-fix-effect="slide"
+    >
+      <div class="u-header__section">
+        <div id="logoAndNav" class="container">
+          <!-- Nav -->
+          <nav
+            class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space"
+          >
+            <!-- Default Logo -->
+            <a
+              class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed"
+              href="index.html"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
+            </a>
+            <!-- End Default Logo -->
 
-<!-- Default Logo -->
-<a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed" href="index.html" aria-label="Front">
-  <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
-</a>
-<!-- End Default Logo -->
+            <!-- On Scroll Logo -->
+            <a
+              class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll"
+              href="index.html"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
+            </a>
+            <!-- End On Scroll Logo -->
 
-<!-- On Scroll Logo -->
-<a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll" href="index.html" aria-label="Front">
-  <img src="../../assets/img/logos/BT614_B_6ad5ef.png" />
-</a>
-<!-- End On Scroll Logo -->
+            <!-- Responsive Toggle Button -->
+            <button
+              type="button"
+              class="navbar-toggler btn u-hamburger"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="navBar"
+              data-toggle="collapse"
+              data-target="#navBar"
+            >
+              <span id="hamburgerTrigger" class="u-hamburger__box">
+                <span class="u-hamburger__inner"></span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
 
-<!-- Responsive Toggle Button -->
-<button type="button" class="navbar-toggler btn u-hamburger"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-        aria-controls="navBar"
-        data-toggle="collapse"
-        data-target="#navBar">
-  <span id="hamburgerTrigger" class="u-hamburger__box">
-    <span class="u-hamburger__inner"></span>
-  </span>
-</button>
-<!-- End Responsive Toggle Button -->
+            <!-- Navigation -->
+            <div
+              id="navBar"
+              class="collapse navbar-collapse u-header__navbar-collapse"
+            >
+              <ul class="navbar-nav u-header__navbar-nav">
+                <!-- Home -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/home/"
+                    >Home</a
+                  >
+                </li>
+                <!-- End Home -->
 
-<!-- Navigation -->
-<div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-  <ul class="navbar-nav u-header__navbar-nav">
+                <!-- About -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/about/"
+                    >About Us</a
+                  >
+                </li>
+                <!-- End About -->
 
-    <!-- Home -->
-    <li class="nav-item u-header__nav-item">
-        <a class="nav-link u-header__nav-link" href="/html/home/">Home</a>
-      </li>
-      <!-- End Home -->
-  
-      <!-- About -->
-      <li class="nav-item u-header__nav-item">
-        <a class="nav-link u-header__nav-link" href="/html/about/">About Us</a>
-      </li>
-      <!-- End About -->
-  
-      <!-- Get Involved -->
-      <li class="nav-item u-header__nav-item">
-        <a class="nav-link u-header__nav-link" href="/html/getinvolved/">Get Involved</a>
-      </li>
-      <!-- End Get Involved -->
-    
-      <!-- Get Events -->
-      <li class="nav-item u-header__nav-item">
-        <a class="nav-link u-header__nav-link" href="/html/events/">Events</a>
-      </li>
-      <!-- End Events -->
+                <!-- Get Involved -->
+                <li class="nav-item u-header__nav-item">
+                  <a
+                    class="nav-link u-header__nav-link"
+                    href="/html/getinvolved/"
+                    >Get Involved</a
+                  >
+                </li>
+                <!-- End Get Involved -->
 
-  </ul>
-</div>
-<!-- End Navigation -->
-</nav>
-<!-- End Nav -->
-</div>
-</div>
-</header>
-<!-- ========== END HEADER ========== -->
+                <!-- Get Events -->
+                <li class="nav-item u-header__nav-item">
+                  <a class="nav-link u-header__nav-link" href="/html/events/"
+                    >Events</a
+                  >
+                </li>
+                <!-- End Events -->
+              </ul>
+            </div>
+            <!-- End Navigation -->
+          </nav>
+          <!-- End Nav -->
+        </div>
+      </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
 
+    <!-- Hero Section -->
+    <div
+      class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+      data-options='{direction: "normal"}'
+    >
+      <!-- Apply your Parallax background image here -->
+      <div
+        class="divimage dzsparallaxer--target"
+        style="height: 120%; background-image: url(../../assets/img/1920x800/img13.jpg);"
+      ></div>
 
- 
-
-<!-- Hero Section -->
-<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
-     data-options='{direction: "normal"}'>
-  <!-- Apply your Parallax background image here -->
-  <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(../../assets/img/1920x800/img13.jpg);"></div>
-
-  <!-- Content -->
-  <div class="container position-relative space-2 space-top-md-5 space-bottom-md-3 z-index-2">
-    <div class="w-lg-80 text-center mx-auto">
-      <h1 class="display-3 font-size-md-down-5 text-white font-weight-semi-bold">About Us</h1>
-      <p class="lead text-white">We're here for you.</p>
+      <!-- Content -->
+      <div
+        class="container position-relative space-2 space-top-md-5 space-bottom-md-3 z-index-2"
+      >
+        <div class="w-lg-80 text-center mx-auto">
+          <h1
+            class="display-3 font-size-md-down-5 text-white font-weight-semi-bold"
+          >
+            About Us
+          </h1>
+          <p class="lead text-white">We're here for you.</p>
+        </div>
+      </div>
+      <!-- End Content -->
     </div>
-  </div>
-  <!-- End Content -->
-</div>
-<!-- End Hero Section -->
+    <!-- End Hero Section -->
 
+    <!-- Front in Frames Section -->
+    <div class="overflow-hidden">
+      <div class="container space-2">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-7 mb-lg-0">
+            <div class="pr-md-4">
+              <!-- Title -->
+              <div class="mb-7">
+                <span class="btn btn-xs btn-soft-success btn-pill mb-2"
+                  >About</span
+                >
+                <h2 class="text-primary">
+                  Our <span class="font-weight-semi-bold">story</span>
+                </h2>
+                <p>
+                  We are dedicated to creating a safe space for Black Technology
+                  Professionals to be their authentic selves while interacting
+                  with like-minded career individuals.
+                </p>
+                <p>
+                  By supporting #BlackTech614, you are also supporting our local
+                  companies in helping to close this gap and accelerate the
+                  progression of necessary IT initiatives with productive and
+                  profitable teams.
+                </p>
+                <p>
+                  #BlackTech614 is building a pipeline of diverse talent with
+                  both the interpersonal and technical skills needed to keep up
+                  with the rigor of the industry.
+                </p>
+              </div>
+              <!-- End Title -->
+            </div>
+          </div>
 
+          <div class="col-lg-6 position-relative">
+            <!-- Image Gallery -->
+            <div class="row mx-gutters-2">
+              <div class="col-5 align-self-end px-2 mb-3">
+                <!-- Fancybox -->
+                <a
+                  class="js-fancybox u-media-viewer"
+                  href="javascript:;"
+                  data-src="../../assets/img/others/event/bt614_1yr_anniversary01.jpg"
+                  data-fancybox="lightbox-gallery-hidden"
+                  data-caption="Front in frames - image #01"
+                  data-speed="700"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="../../assets/img/others/event/bt614_1yr_anniversary01.jpg"
+                    alt="Image Description"
+                  />
 
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span
+                        class="fas fa-plus u-media-viewer__icon-inner"
+                      ></span>
+                    </span>
+                  </span>
+                </a>
+                <!-- End Fancybox -->
+              </div>
 
-<!-- Front in Frames Section -->
-<div class="overflow-hidden">
-        <div class="container space-2">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-lg-5 mb-7 mb-lg-0">
-              <div class="pr-md-4">
-                <!-- Title -->
-                <div class="mb-7">
-                  <span class="btn btn-xs btn-soft-success btn-pill mb-2">About</span>
-                  <h2 class="text-primary">Our <span class="font-weight-semi-bold">story</span></h2>
-                  <p>We are dedicated to creating a safe space for Black Technology Professionals to be their authentic selves while interacting with like-minded career individuals.</p>
-                  <p>By supporting #BlackTech614, you are also supporting our local companies in helping to close this gap and accelerate the progression of necessary IT initiatives with productive and profitable teams.</p>
-                  <p>#BlackTech614 is building a pipeline of diverse talent with both the interpersonal and technical skills needed to keep up with the rigor of the industry.</p>
-                </div>
-                <!-- End Title -->
-      
-               
+              <div class="col-7 px-2 mb-3">
+                <!-- Fancybox -->
+                <a
+                  class="js-fancybox u-media-viewer"
+                  href="javascript:;"
+                  data-src="../../assets/img/others/event/bt614_1yr_anniversary02.jpg"
+                  data-fancybox="lightbox-gallery-hidden"
+                  data-caption="Front in frames - image #02"
+                  data-speed="700"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="../../assets/img/others/event/bt614_1yr_anniversary02.jpg"
+                    alt="Image Description"
+                  />
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span
+                        class="fas fa-plus u-media-viewer__icon-inner"
+                      ></span>
+                    </span>
+                  </span>
+                </a>
+                <!-- End Fancybox -->
+              </div>
+
+              <div class="col-5 offset-1 px-2 mb-3">
+                <!-- Fancybox -->
+                <a
+                  class="js-fancybox u-media-viewer"
+                  href="javascript:;"
+                  data-src="../../assets/img/others/event/bt614_1yr_anniversary04.jpg"
+                  data-fancybox="lightbox-gallery-hidden"
+                  data-caption="Front in frames - image #03"
+                  data-speed="700"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="../../assets/img/others/event/bt614_1yr_anniversary04.jpg"
+                    alt="Image Description"
+                  />
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span
+                        class="fas fa-plus u-media-viewer__icon-inner"
+                      ></span>
+                    </span>
+                  </span>
+                </a>
+                <!-- End Fancybox -->
+              </div>
+
+              <div class="col-5 px-2 mb-3">
+                <!-- Fancybox -->
+                <a
+                  class="js-fancybox u-media-viewer"
+                  href="javascript:;"
+                  data-src="../../assets/img/others/event/bt614_1yr_anniversary05.jpg"
+                  data-fancybox="lightbox-gallery-hidden"
+                  data-caption="Front in frames - image #04"
+                  data-speed="700"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="../../assets/img/others/event/bt614_1yr_anniversary05.jpg"
+                    alt="Image Description"
+                  />
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span
+                        class="fas fa-plus u-media-viewer__icon-inner"
+                      ></span>
+                    </span>
+                  </span>
+                </a>
+                <!-- End Fancybox -->
               </div>
             </div>
-      
-            <div class="col-lg-6 position-relative">
-              <!-- Image Gallery -->
-              <div class="row mx-gutters-2">
-                <div class="col-5 align-self-end px-2 mb-3">
-                  <!-- Fancybox -->
-                  <a class="js-fancybox u-media-viewer" href="javascript:;"
-                     data-src="../../assets/img/others/event/bt614_1yr_anniversary01.jpg"
-                     data-fancybox="lightbox-gallery-hidden"
-                     data-caption="Front in frames - image #01"
-                     data-speed="700">
-                    <img class="img-fluid rounded" src="../../assets/img/others/event/bt614_1yr_anniversary01.jpg" alt="Image Description">
-      
-                    <span class="u-media-viewer__container">
-                      <span class="u-media-viewer__icon">
-                        <span class="fas fa-plus u-media-viewer__icon-inner"></span>
-                      </span>
-                    </span>
-                  </a>
-                  <!-- End Fancybox -->
-                </div>
-      
-                <div class="col-7 px-2 mb-3">
-                  <!-- Fancybox -->
-                  <a class="js-fancybox u-media-viewer" href="javascript:;"
-                     data-src="../../assets/img/others/event/bt614_1yr_anniversary02.jpg"
-                     data-fancybox="lightbox-gallery-hidden"
-                     data-caption="Front in frames - image #02"
-                     data-speed="700">
-                    <img class="img-fluid rounded" src="../../assets/img/others/event/bt614_1yr_anniversary02.jpg" alt="Image Description">
-      
-                    <span class="u-media-viewer__container">
-                      <span class="u-media-viewer__icon">
-                        <span class="fas fa-plus u-media-viewer__icon-inner"></span>
-                      </span>
-                    </span>
-                  </a>
-                  <!-- End Fancybox -->
-                </div>
-      
-                <div class="col-5 offset-1 px-2 mb-3">
-                  <!-- Fancybox -->
-                  <a class="js-fancybox u-media-viewer" href="javascript:;"
-                     data-src="../../assets/img/others/event/bt614_1yr_anniversary04.jpg"
-                     data-fancybox="lightbox-gallery-hidden"
-                     data-caption="Front in frames - image #03"
-                     data-speed="700">
-                    <img class="img-fluid rounded" src="../../assets/img/others/event/bt614_1yr_anniversary04.jpg" alt="Image Description">
-      
-                    <span class="u-media-viewer__container">
-                      <span class="u-media-viewer__icon">
-                        <span class="fas fa-plus u-media-viewer__icon-inner"></span>
-                      </span>
-                    </span>
-                  </a>
-                  <!-- End Fancybox -->
-                </div>
-      
-                <div class="col-5 px-2 mb-3">
-                  <!-- Fancybox -->
-                  <a class="js-fancybox u-media-viewer" href="javascript:;"
-                     data-src="../../assets/img/others/event/bt614_1yr_anniversary05.jpg"
-                     data-fancybox="lightbox-gallery-hidden"
-                     data-caption="Front in frames - image #04"
-                     data-speed="700">
-                    <img class="img-fluid rounded" src="../../assets/img/others/event/bt614_1yr_anniversary05.jpg" alt="Image Description">
-      
-                    <span class="u-media-viewer__container">
-                      <span class="u-media-viewer__icon">
-                        <span class="fas fa-plus u-media-viewer__icon-inner"></span>
-                      </span>
-                    </span>
-                  </a>
-                  <!-- End Fancybox -->
-                </div>
-              </div>
-              <!-- End Image Gallery -->
-      
-              <!-- SVG Background Shape -->
-              <div id="SVGbgShapeID1" class="svg-preloader w-100 content-centered-y z-index-n1">
-                <figure class="ie-soft-triangle-shape">
-                  <img class="js-svg-injector" src="../../assets/svg/components/soft-triangle-shape.svg" alt="Image Description"
-                       data-parent="#SVGbgShapeID1">
-                </figure>
-              </div>
-              <!-- End SVG Background Shape -->
+            <!-- End Image Gallery -->
+
+            <!-- SVG Background Shape -->
+            <div
+              id="SVGbgShapeID1"
+              class="svg-preloader w-100 content-centered-y z-index-n1"
+            >
+              <figure class="ie-soft-triangle-shape">
+                <img
+                  class="js-svg-injector"
+                  src="../../assets/svg/components/soft-triangle-shape.svg"
+                  alt="Image Description"
+                  data-parent="#SVGbgShapeID1"
+                />
+              </figure>
             </div>
+            <!-- End SVG Background Shape -->
           </div>
         </div>
       </div>
-      <!-- End Front in Frames Section -->      
+    </div>
+    <!-- End Front in Frames Section -->
 
+    <div class="container text-center">
+      <div class="mt-11 mb-11">
+        <h1 class="display-4 font-weight-semi-bold">Our Team</h1>
+      </div>
+    </div>
 
-
-
-      <div class="container text-center">
-            <div class="mt-11 mb-11">
-              <h1 class="display-4 font-weight-semi-bold">Our Team</h1>
-            </div>
-        </div>
-
-
-
-      <!-- Team Section -->
-<div class="container teamFaces">
-        <!-- Team Carousel -->
-        <div class="js-slick-carousel u-slick u-slick--gutters-3"
-             data-slides-show="4"
-             data-slides-scroll="1"
-             data-pagi-classes="text-center u-slick__pagination mb-7"
-             data-responsive='[{
+    <!-- Team Section -->
+    <div class="container teamFaces">
+      <!-- Team Carousel -->
+      <div
+        class="js-slick-carousel u-slick u-slick--gutters-3"
+        data-slides-show="4"
+        data-slides-scroll="1"
+        data-pagi-classes="text-center u-slick__pagination mb-7"
+        data-responsive='[{
                 "breakpoint": 992,
                 "settings": {
                   "slidesToShow": 4
@@ -265,197 +377,234 @@ data-header-fix-effect="slide">
                "settings": {
                  "slidesToShow": 1
                }
-             }]'>
-          <div class="js-slide pb-4">
-            <!-- Team -->
-            <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/MattQuinn.png" alt="Image Description">
-            <div class="card border-0 shadow-sm mt-n3 mx-3">
-              <div class="card-body text-center p-3">
-                <h3 class="h6 mb-1">Matthew Quinn</h3>
-                <p class="font-size-1 mb-0">President</p>
-              </div>
+             }]'
+      >
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/MattQuinn.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Matthew Quinn</h3>
+              <p class="font-size-1 mb-0">President</p>
             </div>
-            <!-- End Team -->
           </div>
-      
-          <div class="js-slide pb-4">
-            <!-- Team -->
-            <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/DougMccullough.png" alt="Image Description">
-            <div class="card border-0 shadow-sm mt-n3 mx-3">
-              <div class="card-body text-center p-3">
-                <h3 class="h6 mb-1">Doug McCollough</h3>
-                <p class="font-size-1 mb-0">Vice President</p>
-              </div>
-            </div>
-            <!-- End Team -->
-          </div>
-      
-          <div class="js-slide pb-4">
-            <!-- Team -->
-            <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/ToniCunningham.png" alt="Image Description">
-            <div class="card border-0 shadow-sm mt-n3 mx-3">
-              <div class="card-body text-center p-3">
-                <h3 class="h6 mb-1">Toni Cunningham</h3>
-                <p class="font-size-1 mb-0">Treasurer</p>
-              </div>
-            </div>
-            <!-- End Team -->
-          </div>
-      
-          <div class="js-slide pb-4">
-            <!-- Team -->
-            <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/DeneishaFranklin.png" alt="Image Description">
-            <div class="card border-0 shadow-sm mt-n3 mx-3">
-              <div class="card-body text-center p-3">
-                <h3 class="h6 mb-1">Deneisha Franklin</h3>
-                <p class="font-size-1 mb-0">Secretary</p>
-              </div>
-            </div>
-            <!-- End Team -->
-          </div>
-
-          <div class="js-slide pb-4">
-            <!-- Team -->
-            <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/KimberlyGayle.png" alt="Image Description">
-            <div class="card border-0 shadow-sm mt-n3 mx-3">
-                <div class="card-body text-center p-3">
-                <h3 class="h6 mb-1">Kimberly Gayle</h3>
-                <p class="font-size-1 mb-0">Project Manager</p>
-                </div>
-            </div>
-            <!-- End Team -->
-            </div>
-
-            <div class="js-slide pb-4">
-                <!-- Team -->
-                <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/JariatuMansaray.png" alt="Image Description">
-                <div class="card border-0 shadow-sm mt-n3 mx-3">
-                    <div class="card-body text-center p-3">
-                    <h3 class="h6 mb-1">Jariatu Mansaray</h3>
-                    <p class="font-size-1 mb-0">Project Manager</p>
-                    </div>
-                </div>
-                <!-- End Team -->
-            </div>
-
-            <div class="js-slide pb-4">
-                <!-- Team -->
-                <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/DawnMarbury.png" alt="Image Description">
-                <div class="card border-0 shadow-sm mt-n3 mx-3">
-                    <div class="card-body text-center p-3">
-                    <h3 class="h6 mb-1">Dawn Marbury</h3>
-                    <p class="font-size-1 mb-0">Project Manager</p>
-                    </div>
-                </div>
-                <!-- End Team -->
-            </div>
-
-            <div class="js-slide pb-4">
-                <!-- Team -->
-                <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/ThomasMatthews.png" alt="Image Description">
-                <div class="card border-0 shadow-sm mt-n3 mx-3">
-                    <div class="card-body text-center p-3">
-                    <h3 class="h6 mb-1">Thomas Matthews</h3>
-                    <p class="font-size-1 mb-0">Project Manager</p>
-                    </div>
-                </div>
-                <!-- End Team -->
-            </div>
-
-            <div class="js-slide pb-4">
-                <!-- Team -->
-                <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/DrMarcellaMccurdy.png" alt="Image Description">
-                <div class="card border-0 shadow-sm mt-n3 mx-3">
-                    <div class="card-body text-center p-3">
-                    <h3 class="h6 mb-1">Dr. Marcella McCurdy</h3>
-                    <p class="font-size-1 mb-0">Project Manager</p>
-                    </div>
-                </div>
-                <!-- End Team -->
-            </div>
-
-            <div class="js-slide pb-4">
-                <!-- Team -->
-                <img class="img-fluid w-100 rounded" src="../../assets/img/profiles/KaleemMusa.png" alt="Image Description">
-                <div class="card border-0 shadow-sm mt-n3 mx-3">
-                    <div class="card-body text-center p-3">
-                    <h3 class="h6 mb-1">Kaleem Musa</h3>
-                    <p class="font-size-1 mb-0">Project Manager</p>
-                    </div>
-                </div>
-                <!-- End Team -->
-            </div>
-
+          <!-- End Team -->
         </div>
-        <!-- End Team Carousel -->
-      
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/DougMccullough.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Doug McCollough</h3>
+              <p class="font-size-1 mb-0">Vice President</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/ToniCunningham.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Toni Cunningham</h3>
+              <p class="font-size-1 mb-0">Treasurer</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/DeneishaFranklin.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Deneisha Franklin</h3>
+              <p class="font-size-1 mb-0">Secretary</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/KimberlyGayle.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Kimberly Gayle</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/JariatuMansaray.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Jariatu Mansaray</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/DawnMarbury.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Dawn Marbury</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/ThomasMatthews.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Thomas Matthews</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/DrMarcellaMccurdy.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Dr. Marcella McCurdy</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+
+        <div class="js-slide pb-4">
+          <!-- Team -->
+          <img
+            class="img-fluid w-100 rounded"
+            src="../../assets/img/profiles/KaleemMusa.png"
+            alt="Image Description"
+          />
+          <div class="card border-0 shadow-sm mt-n3 mx-3">
+            <div class="card-body text-center p-3">
+              <h3 class="h6 mb-1">Kaleem Musa</h3>
+              <p class="font-size-1 mb-0">Project Manager</p>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
       </div>
-      <!-- End Team Section -->
-
-
-
-
-<div class="container text-center">
-    <div class="mt-11 mb-11">
-        <h1 class="display-4 font-weight-semi-bold">Sponsors & Partnerships</h1>
+      <!-- End Team Carousel -->
     </div>
-</div>
+    <!-- End Team Section -->
 
-<div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h3>Special Thanks</h3>
-            <ul>
-                <li>Ari Corbin (AriJDesigns</li>
-                <li>Jami (Little 'Ol Cupcakes)</li>
-                <li>Deon Pollard</li>
-                <li>Adam Little</li>
-            </ul>
+    <div class="container text-center">
+      <div class="mt-11 mb-11">
+        <h1 class="display-4 font-weight-semi-bold">Sponsors & Partnerships</h1>
+      </div>
+    </div>
 
-            <h3>Speakers</h3>
-            <ul>
-                <li>Dawn Dickson</li>
-                <li>Jim Locke</li>
-                <li>Gary Cayin</li>
-                <li>Doug McCollough</li>
-                <li>Marcella McCurdy</li>
-                <li>Lisa Turner</li>
-                <li>Stephanie Shaw</li>
-                <li>Matthew Quinn</li>
-                <li>Marshall Short</li>
-            </ul>
-          </div>
-          <div class="col-sm">
-                <h3>Sponsors</h3>
-                <ul>
-                    <li>Pillar Technology</li>
-                    <li>Teksystems</li>
-                    <li>Wendy's</li>
-                    <li>Central Ohio InfoSec Summit</li>
-                    <li>Smart Columbus</li>
-                    <li>Rev1 Ventures</li>
-                    <li>Upstart</li>
-                </ul>
-          </div>
-          <div class="col-sm">
-                <h3>Partnerships</h3>
-                <ul>
-                    <li>Tech Corps</li>
-                    <li>Wendy's Cultural Diversity Network</li>
-                    <li>Central Ohio ISSA</li>
-                    <li>Women in Analytics</li>
-                </ul>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h3>Special Thanks</h3>
+          <ul>
+            <li>Ari Corbin (AriJDesigns</li>
+            <li>Jami (Little 'Ol Cupcakes)</li>
+            <li>Deon Pollard</li>
+            <li>Adam Little</li>
+          </ul>
+
+          <h3>Speakers</h3>
+          <ul>
+            <li>Dawn Dickson</li>
+            <li>Jim Locke</li>
+            <li>Gary Cayin</li>
+            <li>Doug McCollough</li>
+            <li>Marcella McCurdy</li>
+            <li>Lisa Turner</li>
+            <li>Stephanie Shaw</li>
+            <li>Matthew Quinn</li>
+            <li>Marshall Short</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Sponsors</h3>
+          <ul>
+            <li>Pillar Technology</li>
+            <li>Teksystems</li>
+            <li>Wendy's</li>
+            <li>Central Ohio InfoSec Summit</li>
+            <li>Smart Columbus</li>
+            <li>Rev1 Ventures</li>
+            <li>Upstart</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Partnerships</h3>
+          <ul>
+            <li>Tech Corps</li>
+            <li>Wendy's Cultural Diversity Network</li>
+            <li>Central Ohio ISSA</li>
+            <li>Women in Analytics</li>
+          </ul>
         </div>
       </div>
-      
-<!-- Clients Section -->
-<div class="js-slick-carousel u-slick mt-9 mb-9"
-     data-autoplay="true"
-     data-speed="5000"
-     data-infinite="true"
-     data-slides-show="6"
-     data-responsive='[{
+    </div>
+
+    <!-- Clients Section -->
+    <div
+      class="js-slick-carousel u-slick mt-9 mb-9"
+      data-autoplay="true"
+      data-speed="5000"
+      data-infinite="true"
+      data-slides-show="6"
+      data-responsive='[{
        "breakpoint": 1200,
        "settings": {
          "slidesToShow": 4
@@ -480,173 +629,240 @@ data-header-fix-effect="slide">
        "settings": {
          "slidesToShow": 2
        }
-     }]'>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/upstart.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/pillar.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/techcorps.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/teksystems.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/wendys.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/womeninanalytics.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/centralohioinfosecsummit.png" alt="Image Description">
-  </div>
-  <div class="js-slide">
-    <img class="u-clients" src="../../assets/img/logos/smartcolumbus.png" alt="Image Description">
-  </div>
-</div>
-<!-- End Clients Section -->
+     }]'
+    >
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/upstart.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/pillar.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/techcorps.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/teksystems.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/wendys.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/womeninanalytics.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/centralohioinfosecsummit.png"
+          alt="Image Description"
+        />
+      </div>
+      <div class="js-slide">
+        <img
+          class="u-clients"
+          src="../../assets/img/logos/smartcolumbus.png"
+          alt="Image Description"
+        />
+      </div>
+    </div>
+    <!-- End Clients Section -->
 
-  
-
-  <!-- Subscribe Section -->
-<div class="space-1 mt-9 mb-9">
-    <div class="bg-img-hero" style="background-image: url(../../assets/img/bg-shapes/faces_banner_transparent.png);">
-      <div class="container space-2 space-bottom-lg-3 space-top-lg-3">
-        <!-- Title -->
-        <div class="w-md-60 text-center mx-auto mb-7">
-          <h2 class="font-weight-semi-bold">Stay in the know</h2>
-          <p>Subscribe to stay up to date on future events.</p>
-        </div>
-        <!-- End Title -->
-  
-        <!-- Form -->
-        <form class="js-validate w-md-75 w-lg-50 mx-md-auto">
-          <div class="js-form-message">
-            <div class="d-flex align-items-center">
-              <label class="sr-only" for="signupSrEmailExample2">Search Front blog</label>
-              <div class="input-group">
-                <input type="email" class="form-control" name="email" id="signupSrEmailExample2" placeholder="Your email" aria-label="Your email" required
-                       data-msg="Please enter a valid email address."
-                       data-error-class="u-has-error"
-                       data-success-class="u-has-success">
-              </div>
-              <button type="submit" class="btn btn-primary btn-wide transition-3d-hover ml-3">Get Started</button>
-            </div>
+    <!-- Subscribe Section -->
+    <div class="space-1 mt-9 mb-9">
+      <div
+        class="bg-img-hero"
+        style="background-image: url(../../assets/img/bg-shapes/faces_banner_transparent.png);"
+      >
+        <div class="container space-2 space-bottom-lg-3 space-top-lg-3">
+          <!-- Title -->
+          <div class="w-md-60 text-center mx-auto mb-7">
+            <h2 class="font-weight-semi-bold">Stay in the know</h2>
+            <p>Subscribe to stay up to date on future events.</p>
           </div>
-        </form>
-        <!-- End Form -->
+          <!-- End Title -->
+
+          <!-- Form -->
+          <form class="js-validate w-md-75 w-lg-50 mx-md-auto">
+            <div class="js-form-message">
+              <div class="d-flex align-items-center">
+                <label class="sr-only" for="signupSrEmailExample2"
+                  >Search Front blog</label
+                >
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="signupSrEmailExample2"
+                    placeholder="Your email"
+                    aria-label="Your email"
+                    required
+                    data-msg="Please enter a valid email address."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-wide transition-3d-hover ml-3"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- End Form -->
+        </div>
       </div>
     </div>
-  </div>
-  <!-- End Subscribe Section -->
+    <!-- End Subscribe Section -->
 
-  <!-- ========== FOOTER ========== -->
-<footer class="container space-1">
-  <div class="row align-items-md-center">
-    <div class="col-md-3 mb-4 mb-md-0">
-      <div class="d-flex align-items-center">
-        <a class="d-inline-flex align-items-center" href="/html/home" aria-label="Front">
-          <img src="../../assets/img/logos/BT614_flat_small.png" />
-        </a>
-      </div>
-    </div>
+    <!-- ========== FOOTER ========== -->
+    <footer class="container space-1">
+      <div class="row align-items-md-center">
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="d-flex align-items-center">
+            <a
+              class="d-inline-flex align-items-center"
+              href="/html/home"
+              aria-label="Front"
+            >
+              <img src="../../assets/img/logos/BT614_flat_small.png" />
+            </a>
+          </div>
+        </div>
 
-    <div class="col-sm-7 col-md-6 mb-4 mb-sm-0">
-      <!-- List -->
-      <ul class="list-inline list-group-flush list-group-borderless font-size-1 text-md-center mb-0">
-          <li class="list-inline-item pr-3">
-            <a class="list-group-item-action" href="/html/home">Home</a>
-          </li>
-          <li class="list-inline-item pr-3">
-            <a class="list-group-item-action" href="/html/about/">About Us</a>
-          </li>
-          <li class="list-inline-item px-3">
-            <a class="list-group-item-action" href="/html/getinvolved/">Get Involved</a>
-          </li>
-          <li class="list-inline-item px-3">
+        <div class="col-sm-7 col-md-6 mb-4 mb-sm-0">
+          <!-- List -->
+          <ul
+            class="list-inline list-group-flush list-group-borderless font-size-1 text-md-center mb-0"
+          >
+            <li class="list-inline-item pr-3">
+              <a class="list-group-item-action" href="/html/home">Home</a>
+            </li>
+            <li class="list-inline-item pr-3">
+              <a class="list-group-item-action" href="/html/about/">About Us</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="list-group-item-action" href="/html/getinvolved/"
+                >Get Involved</a
+              >
+            </li>
+            <li class="list-inline-item px-3">
               <a class="list-group-item-action" href="/html/events/">Events</a>
-          </li>
-        </ul>
-      <!-- End List -->
-    </div>
+            </li>
+          </ul>
+          <!-- End List -->
+        </div>
 
-    <div class="col-sm-5 col-md-3 text-sm-right">
-      <!-- Social Networks -->
-      <ul class="list-inline mb-0">
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-facebook-f btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-google btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-twitter btn-icon__inner"></span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-            <span class="fab fa-github btn-icon__inner"></span>
-          </a>
-        </li>
-      </ul>
-      <!-- End Social Networks -->
-    </div>
-  </div>
-</footer>
-<!-- ========== END FOOTER ========== -->
+        <div class="col-sm-5 col-md-3 text-sm-right">
+          <!-- Social Networks -->
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-facebook-f btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-google btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-twitter btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="btn btn-sm btn-icon btn-soft-dark btn-bg-transparent rounded-circle"
+                href="#"
+              >
+                <span class="fab fa-github btn-icon__inner"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Social Networks -->
+        </div>
+      </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
 
-  <!-- JS Global Compulsory -->
-  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Global Compulsory -->
+    <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-  <!-- JS Implementing Plugins -->
-  <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-  <script src="../../assets/js/components/hs.fancybox.js"></script>
-<script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
-<script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-<script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-<script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="../../assets/js/components/hs.unfold.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
 
-<!-- JS Front -->
-<script src="../../assets/js/hs.core.js"></script>
-<script src="../../assets/js/components/hs.header.js"></script>
-<script src="../../assets/js/components/hs.slick-carousel.js"></script>
-<script src="../../assets/js/components/hs.svg-injector.js"></script>
-<script src="../../assets/js/components/hs.validation.js"></script>
+    <!-- JS Front -->
+    <script src="../../assets/js/hs.core.js"></script>
+    <script src="../../assets/js/components/hs.header.js"></script>
+    <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+    <script src="../../assets/js/components/hs.svg-injector.js"></script>
+    <script src="../../assets/js/components/hs.validation.js"></script>
+    <script src="../../assets/js/components/hs.unfold.js"></script>
+    <script src="../../assets/js/components/hs.fancybox.js"></script>
 
-<!-- JS Plugins Init. -->
-<script>
-  $(window).on('load', function () {
+    <!-- JS Plugins Init. -->
+    <script>
+      $(window).on("load", function() {
+        // initialization of svg injector module
+        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
+        // initialization of svg injector module
+        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
+      });
 
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    
-  });
-
-  $(document).on('ready', function () {
-    // initialization of header
-    $.HSCore.components.HSHeader.init($('#header'));
-    // initialization of slick carousel
-    $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
-    // initialization of form validation
-    $.HSCore.components.HSValidation.init('.js-validate');
-    // initialization of unfold component
-    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-    // initialization of popups
-    $.HSCore.components.HSFancyBox.init('.js-fancybox');
-  });
-</script>
-</body>
+      $(document).on("ready", function() {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($("#header"));
+        // initialization of slick carousel
+        $.HSCore.components.HSSlickCarousel.init(".js-slick-carousel");
+        // initialization of form validation
+        $.HSCore.components.HSValidation.init(".js-validate");
+        // initialization of unfold component
+        $.HSCore.components.HSUnfold.init($("[data-unfold-target]"));
+        // initialization of popups
+        $.HSCore.components.HSFancyBox.init(".js-fancybox");
+      });
+    </script>
+  </body>
 </html>
