@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg824"
+   width="403.66669"
+   height="406.66669"
+   viewBox="0 0 403.66669 406.66669"
+   sodipodi:docname="instagram_icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs828" />
+  <sodipodi:namedview
+     id="namedview826"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     height="406.66669px"
+     width="403.66669px"
+     inkscape:zoom="0.81517532"
+     inkscape:cx="341.6443"
+     inkscape:cy="341.6443"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g830" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g830">
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.13601;stroke-dasharray:8.54402, 8.54402"
+       id="path936"
+       cx="311.58942"
+       cy="95.991608"
+       rx="24.534599"
+       ry="23.614552" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:36.8013;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1920"
+       cx="205.16629"
+       cy="200.95825"
+       r="82.692207" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:35.395;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 280.3078,24.988063 c 56.42957,1.22673 97.52503,24.08114 99.97849,80.510707 2.45346,56.42958 1.22673,154.56798 -0.61337,195.05007 -1.84009,40.48209 -48.45583,76.05726 -82.80427,78.51072 -34.34844,2.45346 -179.71594,6.13365 -206.703997,-4.29356 -26.98806,-10.4272 -62.56323,-36.8019 -63.78996,-99.97849 -1.22673,-63.17659 -0.61336,-128.80665 3.06683,-177.262477 3.68019,-48.45583 50.29592,-71.15034 79.737437,-72.37707 29.44152,-1.22673 171.12884,-0.1599 171.12884,-0.1599 z"
+       id="path2191"
+       sodipodi:nodetypes="csssssssc" />
+  </g>
+</svg>
